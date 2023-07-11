@@ -1,12 +1,13 @@
 Package: pk4adi
 Type: Package
-Title: PK for anesthetic depth indicators
+Title: PK for Anesthetic Depth Indicators
 Version: 0.1.2
 Author: Jiang Feng
 Maintainer: xfz329 <silencejiang@zju.edu.cn>
-Description: The package's name pk4adi is short for "PK for anesthetic depth indicators". 
-    The PK (Prediction probability) was first proposed by Dr. Warren D. Smith in the paper Measuring the Performance of Anesthetic Depth Indicators. 
-    Our team provide a reimplementation of the PK tools developed using the R language with easy-to-use APIs in this package.
+Description: Calculate and compare the Anesthetic Depth Indicators PK values in R
+    The package's name pk4adi is short for "PK for Anesthetic Depth Indicators". 
+    The prediction probability (PK) was first proposed by Dr. Warren D. Smith in the paper Measuring the Performance of Anesthetic Depth Indicators. 
+    This package provide the easy-to-use API to calculate and compare the PK values using the R language. 
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
