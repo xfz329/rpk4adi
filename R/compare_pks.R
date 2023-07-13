@@ -1,4 +1,4 @@
-#' @title Compare two answers of the pk values.
+#' @title Compare two answers of the PK values.
 #'
 #' @description Both of the two input have to be the output of the function calculate_pk().
 #'
@@ -7,7 +7,7 @@
 #' @param pk2 a list, the output of the function calculate_pk().
 #'
 #' @return a list containing all the variables during the calculation.
-#'     The value list$type is "PKC", which indicated the list is return-value of the function compare_pk().
+#'     The value list$type is "PKC", which indicated the list is the return-value of the function compare_pk().
 #'     The type of list$group is also a list, which contains the normal distribution test results for the group variables.
 #'     The type of list$pair is also a list, which contains the t distribution test results for the pair variables.
 #'     The type of list$details is also a list, which contains all the intermediate variables during the calculation.
