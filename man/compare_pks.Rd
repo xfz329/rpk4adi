@@ -2,7 +2,7 @@
 % Please edit documentation in R/compare_pks.R
 \name{compare_pks}
 \alias{compare_pks}
-\title{Compare two answers of the pk values.}
+\title{Compare two answers of the PK values.}
 \usage{
 compare_pks(pk1, pk2)
 }
@@ -13,7 +13,7 @@ compare_pks(pk1, pk2)
 }
 \value{
 a list containing all the variables during the calculation.
-    The value list$type is "PKC", which indicated the list is return-value of the function compare_pk().
+    The value list$type is "PKC", which indicated the list is the return-value of the function compare_pk().
     The type of list$group is also a list, which contains the normal distribution test results for the group variables.
     The type of list$pair is also a list, which contains the t distribution test results for the pair variables.
     The type of list$details is also a list, which contains all the intermediate variables during the calculation.

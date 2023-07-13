@@ -2,7 +2,7 @@
 % Please edit documentation in R/calculate_pk.R
 \name{calculate_pk}
 \alias{calculate_pk}
-\title{Compute the pk value to Measure the Performance of Anesthetic Depth Indicators.}
+\title{Compute the PK value to Measure the Performance of Anesthetic Depth Indicators.}
 \usage{
 calculate_pk(x_in, y_in)
 }
@@ -13,28 +13,28 @@ calculate_pk(x_in, y_in)
 }
 \value{
 a list containing all the matrices and variables during the calculation.
-    The value list$type is "PK", which indicated the list is return-value of the function calculate_pk().
+    The value list$type is "PK", which indicated the list is the return-value of the function calculate_pk().
     The type of list$basic is also a list, which contains the most important results of the function.
     The type of list$matrices is also a list, which contains all the matrices during the calculation.
     The type of list$details is also a list, which contains all the intermediate variables during the calculation.
 }
 \description{
-Compute the pk value to Measure the Performance of Anesthetic Depth Indicators.
+Compute the PK value to Measure the Performance of Anesthetic Depth Indicators.
 }
 \examples{
 x1 <- c(0, 0, 0, 0, 0, 0)
 y1 <- c(1, 1, 1, 1, 1, 2)
-ans <- calculate_pk(x1, y1)
+ans1 <- calculate_pk(x1, y1)
 
 ## show the most important results.
-print(ans$basic)
+print(ans1$basic)
 
 x2 <- c(1, 1, 2, 2, 2, 2, 3, 3, 3, 3, 4, 4, 4, 4, 4, 5, 5, 5, 5, 6, 6, 6, 6, 6)
 y2 <- c(1, 1, 1, 1, 1, 2, 1, 1, 3, 3, 2, 2, 2, 2, 2, 1, 3, 3, 3, 3, 3, 3, 3, 3)
 ans2 <- calculate_pk(x2, y2)
 
 ## show the full results.
-print(ans)
+print(ans2)
 }
 \references{
 Warren D. Smith, Robert C. Dutton, Ty N. Smith; Measuring the Performance of Anesthetic Depth Indicators. Anesthesiology 1996; 84:38–51 doi: https://doi.org/10.1097/00000542-199601000-00005.
