@@ -39,5 +39,10 @@ print(ans$group)
 print(ans$pair)
 }
 \references{
-Warren D. Smith, Robert C. Dutton, Ty N. Smith; Measuring the Performance of Anesthetic Depth Indicators. Anesthesiology 1996; 84:38–51 doi: https://doi.org/10.1097/00000542-199601000-00005.
+Warren D. Smith, Robert C. Dutton, Ty N. Smith; Measuring the Performance of Anesthetic Depth Indicators. 
+    Anesthesiology 1996; 84:38–51 doi: https://doi.org/10.1097/00000542-199601000-00005.
+
+Warren D. Smith, Robert C. Dutton, Ty N. Smith; A measure of association for assessing prediction accuracy 
+    that is a generalization of nonparametric ROC area. Statistics in Medicine 1996; 15: 1119-1215 
+    doi: https://doi.org/10.1002/(SICI)1097-0258(19960615)15:11<1199::AID-SIM218>3.0.CO;2-Y.
 }
