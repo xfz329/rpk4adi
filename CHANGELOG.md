@@ -1,4 +1,7 @@
 # Change logs
+## 0.1.3
+Minor update.
+* Docs update.
 ## 0.1.2
 Major update.
 * The first R-implementation version of pk4adi.

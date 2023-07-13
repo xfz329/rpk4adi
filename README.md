@@ -77,17 +77,17 @@ The best way to use this package is to use R scripts.
 ```r
 x1 <- c(0, 0, 0, 0, 0, 0)
 y1 <- c(1, 1, 1, 1, 1, 2)
-ans <- calculate_pk(x1, y1)
+ans1 <- calculate_pk(x1, y1)
 
 ## show the most important results.
-print(ans$basic)
+print(ans1$basic)
 
 x2 <- c(1, 1, 2, 2, 2, 2, 3, 3, 3, 3, 4, 4, 4, 4, 4, 5, 5, 5, 5, 6, 6, 6, 6, 6)
 y2 <- c(1, 1, 1, 1, 1, 2, 1, 1, 3, 3, 2, 2, 2, 2, 2, 1, 3, 3, 3, 3, 3, 3, 3, 3)
 ans2 <- calculate_pk(x2, y2)
 
 ## show the full results.
-print(ans)
+print(ans2$basic)
 ```
 You will get the following output.
 ```r

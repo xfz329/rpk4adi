@@ -1,4 +1,4 @@
-#' @title Compare two answers of the pk values.
+#' @title Compare two answers of the PK values.
 #'
 #' @description Both of the two input have to be the output of the function calculate_pk().
 #'
@@ -7,12 +7,16 @@
 #' @param pk2 a list, the output of the function calculate_pk().
 #'
 #' @return a list containing all the variables during the calculation.
-#'     The value list$type is "PKC", which indicated the list is return-value of the function compare_pk().
+#'     The value list$type is "PKC", which indicated the list is the return-value of the function compare_pk().
 #'     The type of list$group is also a list, which contains the normal distribution test results for the group variables.
 #'     The type of list$pair is also a list, which contains the t distribution test results for the pair variables.
 #'     The type of list$details is also a list, which contains all the intermediate variables during the calculation.
 #'
-#' @references Warren D. Smith, Robert C. Dutton, Ty N. Smith; Measuring the Performance of Anesthetic Depth Indicators. Anesthesiology 1996; 84:38–51 doi: https://doi.org/10.1097/00000542-199601000-00005.
+#' @references Warren D. Smith, Robert C. Dutton, Ty N. Smith; Measuring the Performance of Anesthetic Depth Indicators. 
+#'     Anesthesiology 1996; 84:38–51 doi: https://doi.org/10.1097/00000542-199601000-00005.
+#' @references Warren D. Smith, Robert C. Dutton, Ty N. Smith; A measure of association for assessing prediction accuracy 
+#'     that is a generalization of nonparametric ROC area. Statistics in Medicine 1996; 15: 1119-1215 
+#'     doi: https://doi.org/10.1002/(SICI)1097-0258(19960615)15:11<1199::AID-SIM218>3.0.CO;2-Y.
 #'
 #' @importFrom stats pnorm
 #' @importFrom stats pt
